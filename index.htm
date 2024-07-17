@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BWM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header başlangıç -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img style="width: 80px;" src="images/images.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-2">
+                            <a class=" btn btn-outline-success rounded-pill" aria-current="page" href="#">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-success rounded-pill" href="araçlar.html">katalog</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4">
+                            <a class="nav-link dropdown-toggle border border-success rounded-pill" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                arabalar motorlar
+                            </a>
+                            <ul class="dropdown-menu bg-success-subtle ">
+                                <li><a class="dropdown-item bg-success-subtle" href="#">renkler</a></li>
+                                <li><a class="dropdown-item bg-success-subtle" href="#">arabalar</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item bg-success-subtle" href="#">modeler</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx2">
+                            <a class="btn btn-outline-success rounded-pill" href="#" aria-disabled="false">iletişim</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Ara</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header bitiş -->
+
+    <!-- main başlangıç -->
+    <div class=" container ">
+        <section class="d-flex">
+            <div class="text-center col-6 my-4">
+                <h1 class="main-text">hızı hisset <br> <span>hızlı yaşa</span> keşfet </h1>
+                <hr>
+                <p class="fs-2">hızlı modellerle hızlı gidin</p>
+                <button class="btn btn-outline-success rounded-pill">daha fazlası için</button>
+            </div>
+            <div class="col-6">
+                <!-- burasısağ kısım -->
+                <img class="img-fluid"
+                    src="bwm-i-serie-luxury-electric-car-bmw-company-auto-show-istanbul-turkey-november-bwm-i-serie-luxury-electric-car-184916889 (1).webp"
+                    alt="">
+
+            </div>
+        </section>
+        <!-- burası kartlar alanı -->
+        <!-- burası karosel alanı  -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="card2.jpeg" class="d-block " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="card3.jpg" class="d-block " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="crt 1.jpg" class="d-block " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- karosel alanı bitiş -->
+        <div class="d-flex">
+            <!-- birinci kart -->
+            <div class="card m-2" style="width: 18rem;">
+                <img src="crt 1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BWB Q3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">keşfet</a>
+                </div>
+            </div>
+            <!-- ikinci kart -->
+            <div class="card m-2" style="width: 18rem;">
+                <img src="card2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BWB G3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">keşfet</a>
+                </div>
+            </div>
+            <!-- üçüncü kart -->
+            <div class="card m-2" style="width: 18rem;">
+                <img src="card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BWB M3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">keşfet</a>
+                </div>
+            </div>
+        </div>
+        <!-- kart alanı bitiş -->
+
+        <!-- içresim -->
+        <div class="in">
+
+        </div>
+        <h2>mulkemel tasarım </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem provident iusto placeat incidunt
+            harum nemo neque soluta dolorem, corporis nesciunt culpa nisi quaerat tenetur, itaque repellat impedit.
+            Voluptas, corrupti natus?
+            Necessitatibus ducimus quaerat repellat praesentium asperiores exercitationem quis non accusamus repudiandae
+            esse? Cum debitis reiciendis alias, necessitatibus, totam aliquam quae, aliquid consequuntur doloremque
+            blanditiis accusantium. Eligendi natus aut officiis et!
+            Aut tenetur iure a natus voluptatibus explicabo ipsa iste voluptates minus facere aliquid, expedita vel,
+            impedit fuga modi culpa maiores quasi, quod eveniet adipisci ut minima! Consectetur quos velit illo.
+            
+            Nihil obcaecati, accusamus quae quo molestiae reprehenderit pariatur vitae provident deserunt consectetur
+            excepturi voluptatum maiores eius tempore ut saepe fuga qui nostrum, similique sunt! Quia, suscipit!
+            Doloremque facere placeat quis.</p>
+
+        <!-- modal kısmı -->
+        <div class="bilgi border">
+            <div class="ust m-4">
+                <img src="bmw-ic-mekan.jpg" class="img-fluid" alt="">
+                <h3>bwm m3</h3>
+
+            </div>
+            <div class="alt m-4 d-flex justify-content-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    daha fazla bilgi
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">araç donanım</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <h5>yakıt tüketimi <span>4.5</span></h5>
+
+                                <hr>
+                                <h5>12 vites <span>otomatik</span></h5>
+
+                                <hr>
+                                <h5>max hz 300km <span>300km hız</span></h5>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">kapat</button>
+                                <button type="button" class="btn btn-primary">kaydet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- main bitiş -->
+
+    <!-- footer başlangıç -->
+    <c
+    <!-- footer bitiş -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

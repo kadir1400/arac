@@ -1,0 +1,39 @@
+
+.main-text {
+    font-size: 78px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 20px 10px rgb(156, 153, 156);
+
+}
+
+h1 span {
+    color:rgb(96, 8, 168);
+}
+.card img{
+    height: 300px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    
+}
+.in{
+    height: 400px;
+    background: url(bmw-ic-mekan.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.bilgi{
+    width: 18rem;
+}
+.footeralt ul li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+footer img{
+    width: 70px;
+    height: 80px;
+}
